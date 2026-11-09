@@ -6,6 +6,8 @@ public class BankPolimorfik {
 
         Rekening[] semua = { ani, citra, budi };
         BerBunga[] berbunga = { ani, citra };
+        // Percobaan membuat object dari abstract class, hasilnya compile error:
+        // Rekening is abstract; cannot be instantiated
 
         System.out.println("========== REKENING AWAL ==========");
         for (Rekening r : semua) {
